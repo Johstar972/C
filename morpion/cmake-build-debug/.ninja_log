@@ -1,0 +1,6 @@
+# ninja log v5
+243	286	1679233559022207568	morpion	d8b4149f4fcc4d82
+0	211	1679233370612848811	CMakeFiles/morpion.dir/main.cpp.o	4bff6e192038827d
+1	243	1679233558978205167	CMakeFiles/morpion.dir/Plateau.cpp.o	139560fde725c632
+0	253	1679221609033850654	CMakeFiles/morpion.dir/Position.cpp.o	e37ad4062c9791ba
+1	216	1679232943408716160	CMakeFiles/morpion.dir/Symbole.cpp.o	8bf588cf35249479
