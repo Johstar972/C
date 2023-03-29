@@ -1,0 +1,9 @@
+Un jeu de Tic-Tac-Toe: vous pouvez créer un jeu de Tic-Tac-Toe en utilisant des fonctions C pour représenter le plateau de jeu, permettre aux joueurs de faire des mouvements, vérifier si l'un des joueurs a gagné, etc.
+
+Une application de gestion de contacts: vous pouvez créer une application de gestion de contacts qui permet aux utilisateurs de créer, modifier et supprimer des contacts à partir d'un fichier texte ou d'une base de données.
+
+Un éditeur de texte: vous pouvez créer un éditeur de texte simple en utilisant les fonctions d'E/S de fichiers C pour lire et écrire des fichiers texte. Vous pouvez également inclure des fonctionnalités telles que la coloration syntaxique, la recherche et le remplacement, etc.
+
+Un système de gestion de stock: vous pouvez créer un programme de gestion de stock qui permet aux utilisateurs de gérer l'inventaire de leur entreprise. Vous pouvez inclure des fonctionnalités telles que la saisie des commandes, la gestion des stocks, la gestion des fournisseurs, etc.
+
+Un programme de chiffrement de texte: vous pouvez créer un programme qui utilise des algorithmes de chiffrement pour crypter et décrypter des fichiers texte. Vous pouvez inclure des algorithmes tels que le chiffrement de César, le chiffrement de Vigenère, etc.
