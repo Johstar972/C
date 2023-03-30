@@ -1,0 +1,3 @@
+/home/johstar/Documents/BUT1 Info/S2/R2.04 langage C/cmake-build-debug/CMakeFiles/R2_04_langage_C.dir
+/home/johstar/Documents/BUT1 Info/S2/R2.04 langage C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/johstar/Documents/BUT1 Info/S2/R2.04 langage C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
