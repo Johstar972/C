@@ -1,3 +1,4 @@
 ﻿  Exercice1.cpp
-C:\Users\Utilisateur1\Documents\Johan\Armagedon\C-plus-plus-\TP Gestion de tableau + POO\Exercice1.cpp(22,3): warning C4551: liste d'arguments manquante dans l'appel de fonction
+C:\Users\Utilisateur1\Documents\Johan\Armagedon\C-plus-plus-\TP Gestion de tableau + POO\Exercice1.cpp(126,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\Utilisateur1\Documents\Johan\Armagedon\C-plus-plus-\TP Gestion de tableau + POO\Exercice1.cpp(211,6): warning C4101: 'i' : variable locale non référencée
   TP Gestion de tableau + POO.vcxproj -> C:\Users\Utilisateur1\Documents\Johan\Armagedon\C-plus-plus-\TP Gestion de tableau + POO\x64\Debug\TP Gestion de tableau + POO.exe
