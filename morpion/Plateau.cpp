@@ -10,7 +10,7 @@ using namespace std;
 //Implémentation du constructeur par défaut
 Plateau::Plateau()
 {
-    tableau = new char[TAILLE_TABLEAU];
+    char array[ARRAY_SIZE] {};
     //La taille de mon vector est initialiser à null.
 }
 
@@ -20,26 +20,27 @@ vector<Symbole> Plateau::getListeSymbole() const
     return this->listeSymbole;
 }
 
-char* Plateau::getTableau()
+char* Plateau::getArray()
 {
-    return this->tableau;
+    return this->array;
 }
 
 //Implémentation de la méthode d'initialisation du tableau
-void Plateau::initTableau() const
+void Plateau::initArray() const
 {
-    for(int i = 0; i < TAILLE_TABLEAU; i++)
+    for(int i = 0; i < ARRAY_SIZE; i++)
     {
-        tableau[i] = ' ';
+        array[i] = ' ';
     }
 }
 
+//TODO: Régler cette erreur : Signal: SIGSEGV (Segmentation fault)
 //Implémentation de la methode d'affichage du tableau
-void Plateau::afficherTableau() const
+void Plateau::afficherArray() const
 {
-    for(int i = 0; i < TAILLE_TABLEAU; i++)
+    for(int i = 0; i < ARRAY_SIZE; i++)
     {
-        cout << "|" << tableau[i];
+        cout << "|" << array[i];
 
         if ( i == 2 || i == 5 || i == 8)
         {
@@ -48,3 +49,4 @@ void Plateau::afficherTableau() const
 
     }
 }
+

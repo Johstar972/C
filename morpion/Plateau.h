@@ -4,7 +4,7 @@
 
 #ifndef MORPION_PLATEAU_H
 #define MORPION_PLATEAU_H
-#define TAILLE_TABLEAU 9
+#define ARRAY_SIZE 9
 
 #include <vector>
 #include "Symbole.h"
@@ -18,29 +18,29 @@ public:
     Plateau();
 
     //getter setter
-    char* getTableau(); //retourne un pointeur vers le 1er élement du tableau mais en lecture seul, sans possibilité de le modifier
+    char* getArray(); //retourne un pointeur vers le 1er élement du tableau mais en lecture seul, sans possibilité de le modifier
 
     vector<Symbole> getListeSymbole() const;
 
-    void setTableau(char *tableau); // Prend pointeur vers l'adresse du premiere élement du tableau
+    void setArray(char *array); // Prend pointeur vers l'adresse du premiere élement du tableau
 
     void setListSymbole(vector<Symbole> listeSymbole);
 
     //Autre methode
-    void initTableau() const;
-    void afficherTableau() const;
+    void initArray() const;
+    void afficherArray() const;
 
 private:
-    char *tableau;
+    char *array;
     vector<Symbole> listeSymbole;
 
 };
 
-inline void Plateau::setTableau(char *tableau)
+inline void Plateau::setArray(char *array)
 {
-    for(int i = 0; i < TAILLE_TABLEAU; i++)
+    for(int i = 0; i < ARRAY_SIZE; i++)
     {
-        this->tableau[i] = tableau[i];
+        this->array[i] = array[i];
     }
 }
 

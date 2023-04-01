@@ -73,8 +73,8 @@ build CMakeFiles/morpion.dir/Plateau.cpp.o: CXX_COMPILER__morpion_Debug /home/jo
   OBJECT_DIR = CMakeFiles/morpion.dir
   OBJECT_FILE_DIR = CMakeFiles/morpion.dir
 
-build CMakeFiles/morpion.dir/Joueur.cpp.o: CXX_COMPILER__morpion_Debug /home/johstar/Documents/Armagedon/C++/morpion/Joueur.cpp || cmake_object_order_depends_target_morpion
-  DEP_FILE = CMakeFiles/morpion.dir/Joueur.cpp.o.d
+build CMakeFiles/morpion.dir/Player.cpp.o: CXX_COMPILER__morpion_Debug /home/johstar/Documents/Armagedon/C++/morpion/Player.cpp || cmake_object_order_depends_target_morpion
+  DEP_FILE = CMakeFiles/morpion.dir/Player.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
   OBJECT_DIR = CMakeFiles/morpion.dir
   OBJECT_FILE_DIR = CMakeFiles/morpion.dir
@@ -87,7 +87,7 @@ build CMakeFiles/morpion.dir/Joueur.cpp.o: CXX_COMPILER__morpion_Debug /home/joh
 #############################################
 # Link the executable morpion
 
-build morpion: CXX_EXECUTABLE_LINKER__morpion_Debug CMakeFiles/morpion.dir/main.cpp.o CMakeFiles/morpion.dir/Position.cpp.o CMakeFiles/morpion.dir/Symbole.cpp.o CMakeFiles/morpion.dir/Plateau.cpp.o CMakeFiles/morpion.dir/Joueur.cpp.o
+build morpion: CXX_EXECUTABLE_LINKER__morpion_Debug CMakeFiles/morpion.dir/main.cpp.o CMakeFiles/morpion.dir/Position.cpp.o CMakeFiles/morpion.dir/Symbole.cpp.o CMakeFiles/morpion.dir/Plateau.cpp.o CMakeFiles/morpion.dir/Player.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/morpion.dir
   POST_BUILD = :
