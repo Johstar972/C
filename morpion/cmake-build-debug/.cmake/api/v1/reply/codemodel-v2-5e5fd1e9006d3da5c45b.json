@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/johstar/Documents/Armagedon/C++/morpion/cmake-build-debug",
-		"source" : "/home/johstar/Documents/Armagedon/C++/morpion"
+		"build" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion/cmake-build-debug",
+		"source" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion"
 	},
 	"version" : 
 	{

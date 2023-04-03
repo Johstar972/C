@@ -27,11 +27,12 @@ public:
     void setListSymbole(vector<Symbole> listeSymbole);
 
     //Autre methode
-    void initArray() const;
+    //void initArray() const;
     void afficherArray() const;
 
+
 private:
-    char *array;
+    char array[ARRAY_SIZE] {};
     vector<Symbole> listeSymbole;
 
 };

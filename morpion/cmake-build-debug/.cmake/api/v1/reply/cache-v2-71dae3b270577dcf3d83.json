@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/johstar/Documents/Armagedon/C++/morpion/cmake-build-debug"
+			"value" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/johstar/Documents/Armagedon/C++/morpion/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/johstar/Documents/Armagedon/C++/morpion"
+			"value" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/johstar/Documents/Armagedon/C++/morpion/cmake-build-debug"
+			"value" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion/cmake-build-debug"
 		},
 		{
 			"name" : "morpion_IS_TOP_LEVEL",
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/johstar/Documents/Armagedon/C++/morpion"
+			"value" : "/home/johstar/Documents/Armagedon/C-plus-plus-/morpion"
 		}
 	],
 	"kind" : "cache",

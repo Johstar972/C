@@ -27,6 +27,7 @@ public:
     void afficherPlayer();
     void debutDeJeu();
     void tourDeJeu(Plateau *plateau);
+    void victoire(Plateau *plateau);
 
 private:
     string name;

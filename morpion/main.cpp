@@ -10,8 +10,12 @@ void runGame(Player joueur1, Player joueur2, Plateau *plateau);
 
 int main() {
     string name1, name2;
+
     Symbole symbole1, symbole2;
+
     int choix;
+
+    bool coupGagnant = false;
 
     Plateau plateau = Plateau();
 
@@ -20,7 +24,7 @@ int main() {
     cout << "Choisissez votre symbole :" << endl; cout << "1. X  2. O" << endl;
     cin >> choix;
 
-    if(choix = 1)
+    if(choix == 1)
     {
         symbole1.setCharactere('X');
     }
@@ -47,7 +51,10 @@ int main() {
     joueur1.afficherPlayer();
     joueur2.afficherPlayer();
 
-    runGame(joueur1, joueur2, &plateau);
+    while(coupGagnant == false)
+    {
+        runGame(joueur1, joueur2, &plateau);
+    }
 
 
     return 0;
@@ -55,15 +62,30 @@ int main() {
 
 void runGame(Player joueur1, Player joueur2, Plateau *plateau)
     {
+
+    int tour = 1;
+
     if(joueur1.getSymbole().getCharactere() == 'X')
     {
-        plateau->afficherArray();
+        cout << "Les X commence !!" << endl;
         cout << "C'est au tour de :" + joueur1.getName() << endl;
         joueur1.tourDeJeu(plateau);
-    }
-    else{
-        plateau->afficherArray();
+
+
         cout << "C'est au tour de :" + joueur2.getName() << endl;
         joueur2.tourDeJeu(plateau);
+
+        tour+= 1;
+    }
+    else{
+        cout << "Les X commence !!" << endl;
+        cout << "C'est au tour de :" + joueur2.getName() << endl;
+        joueur2.tourDeJeu(plateau);
+
+
+        cout << "C'est au tour de :" + joueur1.getName() << endl;
+        joueur1.tourDeJeu(plateau);
+
+        tour += 1;
     }
     }
