@@ -3,4 +3,4 @@ project(morpion)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(morpion main.cpp Position.h Position.cpp Plateau.h Symbole.h Symbole.cpp Plateau.cpp Player.h Player.cpp mainGraphique.cpp)
+add_executable(morpion main.cpp Position.h Position.cpp Plateau.h Symbole.h Symbole.cpp Plateau.cpp Player.h Player.cpp mainGraphique.cpp Joueur.h Joueur.cpp)
