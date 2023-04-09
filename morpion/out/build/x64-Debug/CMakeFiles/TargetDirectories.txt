@@ -1,0 +1,3 @@
+S:/Armagedon/C-plus-plus-/morpion/out/build/x64-Debug/CMakeFiles/morpion.dir
+S:/Armagedon/C-plus-plus-/morpion/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+S:/Armagedon/C-plus-plus-/morpion/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

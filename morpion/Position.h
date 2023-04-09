@@ -31,18 +31,18 @@ class Position
 
     //attribut
     private:
-        int x, y;
+        int _x, _y;
 };
 
 
 inline void Position::setX(int x) //Mehtode set avec le prefixe (inline) qui doit être déclaré dans le fichier d'entête pour permettre au compilateur de générer le code et de l'inserrer à chaque appel de la fonction
 {
-    this -> x = x;
+    this -> _x = x;
 }
 
 inline void Position::setY(int y)
 {
-    this -> y = y;
+    this -> _y = y;
 }
 
 

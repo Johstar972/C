@@ -41,21 +41,7 @@ void Player::tourDeJeu(Plateau *plateau)
 
 }
 
-void Player::victoire(Plateau *plateau)
-{
-    int x = symbole.getPosition().getX();
-    int y = symbole.getPosition().getY();
 
-    int position = x * (ARRAY_SIZE)/3 + y;
-
-for(int i = 0; i< ARRAY_SIZE; i++)
-{
-    if(plateau->getArray()[position] == symbole.getCharactere())
-    {
-
-    }
-}
-}
 
 //Methode permettat d'afficher un joueur
 void Player::afficherPlayer()

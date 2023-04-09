@@ -35,8 +35,8 @@ void Joueur::tourDeJeu(Plateau *plateau, Symbole symbole)
     cout << "Y :";
     cin >> y;
 
-    plateau->getTableau()[x*TAILLE_TABLEAU + y] = symbole.getCharactere();
-
+    plateau->getArray()[x*ARRAY_SIZE + y] = symbole.getCharactere();
+    
 
 
 }
