@@ -1,0 +1,3 @@
+/home/johstar/Documents/C-plus-plus-/Interface/cmake-build-debug/CMakeFiles/Interface.dir
+/home/johstar/Documents/C-plus-plus-/Interface/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/johstar/Documents/C-plus-plus-/Interface/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.23.2)
 project(morpion)
 
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(morpion main.cpp Position.h Position.cpp Plateau.h Symbole.h Symbole.cpp Plateau.cpp Player.h Player.cpp mainGraphique.cpp Joueur.h Joueur.cpp)
+
+include_directories(${SFML_INCLUDE_DIR})

@@ -1,3 +1,3 @@
-/media/johstar/Super public folder/Armagedon/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/morpion.dir
-/media/johstar/Super public folder/Armagedon/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/johstar/Super public folder/Armagedon/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/johstar/Super public folder/Gilgamesh/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/morpion.dir
+/media/johstar/Super public folder/Gilgamesh/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/johstar/Super public folder/Gilgamesh/C-plus-plus-/morpion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
